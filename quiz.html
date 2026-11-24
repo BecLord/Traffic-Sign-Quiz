@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+    <head>
+        <meta charset="UTF-8">
+        <title>Traffic Sign Quiz</title>
+        <link rel="stylesheet" href="styles.css">
+	    <link rel="icon" type="image/x-icon" href="signs/icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <header>
+		    <img src="signs/header.png" alt="Logo">
+	    </header>
+        <main>
+            <h1>Road Traffic Sign Quiz</h1>
+            <p id="questionNumber"></p>
+            <p id="timer">Time Left: 03:00</p>
+            <img id="image" src="" alt="Traffic Sign">
+            <p id="question"></p>
+            
+            <section id="options"></section>
+
+            <button id="previous">Previous</button>
+            <button id="next">Next</button>
+            <button id="submit">Submit</button>
+
+            <p id="result"></p>
+
+            <section id="wrongAnswers"></section>
+            <button id="tryAgain" hidden>Try Again</button>
+            <a href="results.html">Past Results</a>
+            <nav>
+                <a href="attempts.html">Previous Attempts</a>
+            </nav>
+
+        </main>
+        <script src="quiz.js"></script>
+    <footer>
+        <p>
+            <small>
+                Client Side Web-Development Project 1
+            </small>
+        </p>
+    </footer>
+</body>
+</html>

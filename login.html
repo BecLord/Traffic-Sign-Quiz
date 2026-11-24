@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+    <head>
+        <meta charset="UTF-8">
+        <title>Traffic Sign Quiz Login</title>
+        <link rel="stylesheet" href="styles.css">
+	    <link rel="icon" type="image/x-icon" href="signs/icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <body>
+        <header>
+		    <img src="signs/header.png" alt="Logo">
+	    </header>
+        <main>
+            <h1>Traffic Sign Quiz</h1>
+            <h2>Create an Account</h2>
+            <form id="signupForm">
+                <label for="signupemail">Email:</label>
+                <input type="email" id="signupemail" required>
+
+                <label for="signuppassword">Password</label>
+                <input type="password" id="signuppassword" required>
+
+                <button type="submit">Create Account</button>
+            </form>
+            <p id="signupMessage"></p>
+
+            <h2>Log In</h2>
+            <form id="loginForm">
+                <label for="loginemail">Email:</label>
+                <input type="email" id="loginemail" required>
+
+                <label for="loginpassword">Password</label>
+                <input type="password" id="loginpassword" required>
+
+                <button type="submit">Login</button>
+            </form>
+            <p id="loginMessage"></p>
+        </main>
+        <script src="login.js"></script>
+        <footer>
+            <p>
+                <small>
+                    Client Side Web-Development Project 1
+                </small>
+            </p>
+        </footer>
+    </body>
+</html>
